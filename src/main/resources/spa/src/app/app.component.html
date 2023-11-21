@@ -1,4 +1,6 @@
 <h1>{{title}}</h1>
+<button *ngIf="!isLoggedIn" type="button" (click)="login()">Log In</button>
+<button *ngIf="isLoggedIn" type="button" (click)="logout()">Log Out</button>
 <nav>
   <a routerLink="/dashboard">Dashboard</a>
   <a routerLink="/heroes">Heroes</a>
