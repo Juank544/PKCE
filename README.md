@@ -42,13 +42,13 @@ Provided by: _Auth0 by Okta_
 I'm using Keycloak as authorization server, it will be handling the auth between the front and the backend.
 
 1. Once you download Keycloak you can start it with this command `bin\kc.bat start-dev --http-port 8180` (I'm changing
-   the port because it,s already used by the backend).
+   the port because it's already used by the backend).
 2. You need to create an admin user before you can start using the console.
 3. A realm in Keycloak is equivalent to a tenant, on the top left you should create a new realm for each application
 
    ![](https://www.keycloak.org/resources/images/guides/add-realm.png)
 
-4. Click in the client tab ad then create new client as follows, **keep in mind the client ID and the realm for later**
+4. Click in the client tab and then create new client as follows, **keep in mind the client ID and the realm for later**
 
    ![](/img/keycloak/k1.PNG)
    ![](/img/keycloak/k2.PNG)
